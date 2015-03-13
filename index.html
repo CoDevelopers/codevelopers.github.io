@@ -1,97 +1,967 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+<!DOCTYPE HTML>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js has-loader"> <!--<![endif]-->
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+<title>Home | Multi-Host</title>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>KATG Studios by KATG-Studios</title>
-  </head>
+<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/KATG-Studios">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>KATG Studios</h1>
-            <h2>Turning your dreams into reality.</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a id="welcome-to-katg-studios" class="anchor" href="#welcome-to-katg-studios" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to KATG Studios.</h3>
-
-<p>We're in the business of turning your ideas into reality.</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/KATG-Studios">KATG-Studios</a> can be found on <a href="https://github.com/KATG-Studios">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
+<!-- CSS Stylesheets -->
+	<link id="default-css" rel="stylesheet" href="style.css" type="text/css">
+    <link id="shortcodes-css" rel="stylesheet" href="css/shortcodes.css" type="text/css">
+	<link id="responsive-css" rel="stylesheet" href="css/responsive.css" type="text/css">
+	<link id="skin-css" rel="stylesheet" href="skins/electricblue/style.css" type="text/css">
     
-  </body>
+<!-- Additional Stylesheets -->    
+    <link rel="stylesheet" href="css/component.css" type="text/css">
+	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+    <link href="css/pace-theme-loading-bar.css" rel="stylesheet" media="all" />
+         
+<!-- Google fonts -->  
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+	<link rel="stylesheet" href="js/layerslider/css/layerslider.css" type="text/css">
+
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script> 	
+
+</head>
+
+<body class="page-template-tpl-fullwidth-php">
+	<!-- **Wrapper** -->
+ 	<div class="wrapper"> 
+    
+        <div id="loader-wrapper">
+            <div class="loader">
+                <!-- the component -->
+                <div class="pre-loader"></div>                    
+            </div>
+        </div>            
+    
+    	<!-- **Header Top Bar** -->
+	   	<div id="bbar-wrapper">
+        	<div class="container">
+            	<div class="column dt-sc-one-half first">
+                	<p class="contact"> Call-us on : <span>845.180.1530</span> </p>
+                </div>
+                
+                <div class="column dt-sc-one-half alignright">
+                	<div class="buttons">
+                        <a href="login-page.html" title="">Login <i class="fa fa-caret-right"></i></a> 
+                        <a href="register.html" title="">Register <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+        	</div>
+	   	</div> <!-- **Header Top Bar Ends** -->
+        
+        <!-- **Header Wrapper** -->
+        <div id="header-wrapper">        
+        	<!-- **Header** -->
+            <header id="header" class="header5">
+                <div class="container">
+                	<!-- **Logo** -->
+                    <div id="logo">
+                        <a href="index.html"> <img src="images/logo.png" alt="logo"> </a>
+                    </div><!-- **Logo Ends** -->
+                    
+                    <!-- **Main-Menu Navigation** -->
+                    <div id="primary-menu">
+                        <div class="dt-menu-toggle" id="dt-menu-toggle">Menu<span class="dt-menu-toggle-icon"></span></div>                    
+                        <nav id="main-menu">
+                            <ul id="menu-main-menu" class="menu">
+                                <li class="current_page_item menu-item-simple-parent menu-item-depth-0"> <a href="index.html" title=""> <span class="menu-icon fa fa-home"> </span> Home </a>                                    
+                                    <ul class="sub-menu">
+                                        <li> <a href="index-v2.html" title=""> Home Layout 2 </a> </li>
+                                        <li> <a href="index-v3.html" title=""> Home Layout 3 </a> </li>
+                                        <li> <a href="index-v4.html" title=""> Home Layout 4 </a> </li>
+                                        <li> <a href="one-page.html" title=""> One Page Layout </a> </li>
+                                    </ul>
+                                    <a class="dt-menu-expand">+</a>                            
+                                </li>          
+                                
+                                <li class="menu-item-simple-parent menu-item-depth-0"> <a href="about.html" title=""> <span class="menu-icon fa fa-book"> </span> Pages </a> 
+                                    <ul class="sub-menu">
+                                        <li> <a href="about.html" title="">  Company </a> </li> 
+                                        <li> <a href="faq.html" title=""> FAQ </a> </li>
+                                        <li> <a href="shortcodes.html" title=""> Shortcodes </a> </li> 
+                                        <li> <a href="side-navigation.html" title=""> Features </a> </li>                                          
+                                        <li> <a href="404.html" title=""> 404 </a> </li>                                        
+                                    </ul> 
+                                    <a class="dt-menu-expand">+</a>                            
+                                </li>
+                                     
+                                <li class="menu-item-megamenu-parent fullwidth megamenu-5-columns-group menu-item-depth-0"><a href="blog-three-column.html">Blog</a>
+                                    <div class="megamenu-child-container">
+                                        <ul class="sub-menu">
+                                            <li class="first"> <a href="blog-three-column.html" title=""> Three Column </a>                             
+                                                <ul class="sub-menu">
+                                                    <li> <a href="blog-three-column.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="blog-three-column-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="blog-three-column-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="blog-two-column.html" title=""> Two Column </a>
+                                                <ul class="sub-menu">
+                                                    <li> <a href="blog-two-column.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="blog-two-column-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="blog-two-column-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="blog-fullwidth.html" title=""> Fullwidth image </a>
+                                                <ul class="sub-menu">
+                                                    <li> <a href="blog-fullwidth.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="blog-fullwidth-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="blog-fullwidth-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="blog-thumb.html" title=""> Thumb image </a>  
+                                                <ul class="sub-menu">
+                                                    <li> <a href="blog-thumb.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="blog-thumb-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="blog-thumb-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>    
+                                            <li> <a href="blog-single.html" title=""> Blog Single </a>  
+                                                <ul class="sub-menu">
+                                                    <li> <a href="blog-single.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="blog-single-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="blog-single-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>                                                                                    
+                                        </ul>
+                                    </div>                                
+                                    <a class="dt-menu-expand">+</a>
+                                </li>                     
+                                
+                                <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0"><a href="portfolio-four-column.html">Portfolio</a>
+                                    <div class="megamenu-child-container">
+                                        <ul class="sub-menu">
+                                            <li class="first"> <a href="portfolio-four-column.html" title=""> Four Column </a>                             
+                                                <ul class="sub-menu">
+                                                    <li> <a href="portfolio-four-column.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="portfolio-four-column-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="portfolio-four-column-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="portfolio-three-column.html" title=""> Three Column </a> 
+                                                <ul class="sub-menu">
+                                                    <li> <a href="portfolio-three-column.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="portfolio-three-column-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="portfolio-three-column-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="portfolio-two-column.html" title=""> Two Column </a>
+                                                <ul class="sub-menu">
+                                                    <li> <a href="portfolio-two-column.html" title=""> Without Sidebar </a> </li>
+                                                    <li> <a href="portfolio-two-column-with-left-sidebar.html" title=""> With Left Sidebar </a> </li>
+                                                    <li> <a href="portfolio-two-column-with-right-sidebar.html" title=""> With Right Sidebar </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="portfolio-single.html" title=""> Portfolio Single </a>   
+                                                <ul class="sub-menu">
+                                                    <li> <a href="portfolio-single.html" title=""> Fullwidth Gallery </a> </li>
+                                                    <li> <a href="portfolio-single-left-gallery.html" title=""> Left Gallery </a> </li>
+                                                    <li> <a href="portfolio-single-right-gallery.html" title=""> Right Gallery </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>                                                                                    
+                                        </ul>
+                                    </div>                                
+                                    <a class="dt-menu-expand">+</a>
+                                </li>                                                  
+                                                                                                                   
+                                <li class="menu-item-megamenu-parent megamenu-3-columns-group menu-item-depth-0 hasImage-bg right-aligned"><a href="#">Websites</a>
+                                    <div class="megamenu-child-container">
+                                        <ul class="sub-menu">
+                                            <li class="first"> <a href="#">Domain Services</a>
+                                                <ul class="sub-menu">
+                                                    <li> <a href="#"> Single user Domains </a> </li>
+                                                    <li> <a href="#"> Multi-user Domains </a> </li>
+                                                    <li> <a href="#"> Reseller Domains </a> </li>
+                                                    <li> <a href="#"> Promos and Services </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <span class="nolink-menu">Web Hosting</span>
+                                                <ul class="sub-menu">
+                                                    <li> <a href="#"> Dedicated Servers </a> </li>
+                                                    <li> <a href="#"> Shared Hosting </a> </li>
+                                                    <li> <a href="#"> Wordpress Hosting </a> </li>
+    
+                                                    <li> <a href="#"> NextGen VPS Hosting </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                            <li> <a href="">Cloud Servers</a>
+                                                <ul class="sub-menu">
+                                                    <li> <a href="#"> Ensured Speed Plans </a> </li>   
+                                                    <li> <a href="#"> Instant FTP Setup </a> </li>     
+                                                    <li> <a href="#"> Cloud Hosting Objects </a> </li>
+                                                    <li> <a href="#"> Safe & Highly Secured </a> </li>
+                                                </ul>
+                                                <a class="dt-menu-expand">+</a>
+                                            </li>
+                                        </ul>
+                                    </div>                                
+                                    <a class="dt-menu-expand">+</a>
+                                </li>
+                                                                
+                                <li class="menu-item-simple-parent menu-item-depth-0"> <a href="contact.html" title=""> <span class="menu-icon fa fa-envelope"> </span> Contact </a>
+                                    <ul class="sub-menu">
+                                        <li> <a href="contact.html" title=""> Layout 1 </a> </li>
+                                        <li> <a href="contact2.html" title=""> Layout 2 </a> </li>
+                                    </ul>                            
+                                </li>
+                            </ul>
+                        </nav>
+                    </div> <!-- **Main-Menu Navigation Ends** -->                 
+                </div>                
+            </header> <!-- **Header Ends** -->
+        </div> <!-- **Header Wrapper Ends** -->        
+        
+        <!-- **Main** -->        
+		<div id="main">
+        
+            <!-- **Slider Section** -->
+            <div id="slider"> 
+                
+                <div id="layerslider_6" class="ls-wp-container" style=" width:100%; height:600px; max-width:1920px; margin:0 auto; margin-bottom: 0;">
+                
+                    <div class="ls-slide slide1" data-ls="slidedelay:10000;transition2d:4;">
+                        <img src="images/slider/layerslider/blank.gif" data-src="http://placehold.it/1920x600" class="ls-bg" alt="Slide background" />
+                        <div class="ls-l ls-text" style="top:205px;left:700px;font-weight:500; z-index:5;padding-left:0px;font-family:'Ubuntu', 'Open Sans', sans-serif;font-size:32px;line-height:46px;color:#101017;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:200;durationin:2500;delayin:2000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">Hosting starts from $3.50/month</div>
+                        <div class="ls-l ls-text" style="top:175px;left:700px;font-weight:100; z-index:3;font-family:'Ubuntu';font-size:26px;line-height:26px;color:#3575b9;white-space: nowrap;" data-ls="offsetxin:100;durationin:2000;delayin:1500;">Best price all round</div>
+                        <div class="ls-l ls-text" style="top:270px;left:700px;font-weight:100; z-index:3;font-family:'Ubuntu';font-size:24px;line-height:34px;color:#020203;white-space: nowrap;" data-ls="offsetxin:100;durationin:1500;delayin:3000;">We provide the best class 24/7 support <br>to all your business</div>
+                        <div class="ls-l ls-text last" style="top:448px;left:700px;font-weight:100; z-index:3;font-family:'Ubuntu';font-size:14px;line-height:26px;color:#020203;white-space: nowrap;" data-ls="offsetxin:100;delayin:4500;">*Offer for a limited period</div>
+                        <div class="ls-l" style="top:0px;left:0px;white-space: nowrap;"></div>
+                        <div class="ls-l ls-button" style="top:360px;left:700px;font-size:26px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;delayin:4000;"> <a href="#" class="dt-sc-button ico-button"> <span> Start Now</span> <i class="ico-btn-image"></i></a> </div>
+                        
+                        <img class="ls-l ls-icon" style="top:170px;left:600px;white-space: nowrap;" data-ls="delayin:500;" src="images/slider/layerslider/server-icon.png" data-src="images/slider/layerslider/server-icon.png" alt="">
+                    </div>
+                        
+                    <div class="ls-slide slide2" data-ls="slidedelay:10000;transition2d:4;">
+                        <img src="images/slider/layerslider/blank.gif" data-src="http://placehold.it/1920x600" class="ls-bg" alt="Slide background" />
+                        
+                        <div class="ls-l" style="top:170px;left:0px;font-weight:700; z-index:5;padding-left:640px;font-family:'Ubuntu', 'Open Sans', sans-serif;font-size:40px;line-height:46px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-100;durationin:2500;delayin:2000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">Best Performance &amp; Best <br> Price Deal</div>
+                        
+                        <div class="ls-l" style="top:120px;left:640px;font-weight:100; z-index:3;font-family:'Ubuntu';font-size:30px;line-height:26px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:700;durationin:2000;delayin:1500;">with superior support we provide</div>
+                        
+                        <div class="ls-l" style="top:465px;left:645px;z-index:3;font-family:'Ubuntu';font-size:20px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-50;durationin:2000;delayin:4500;">
+                            <div class="round-list"> <i class="fa fa-circle-o" style="color:#da4b27"> </i> Shared Hosting </div>
+                        </div>
+                        
+                        <img class="ls-l" style="top:0px;left:610px;z-index:0;white-space: nowrap;" data-ls="offsetxin:100;delayin:1000;" src="images/slider/layerslider/blank.gif" data-src="http://placehold.it/939x600/000" alt="">
+                        <p class="ls-l" style="top:290px;left:640px;z-index:3 display:block;width:520px;height:5px;border-bottom:1px solid #fff;background:#ffffff;white-space: nowrap;" data-ls="delayin:2500;"> <br></p>
+                        <img class="ls-l" style="top:330px;left:645px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:50;delayin:4000;" src="images/slider/layerslider/blank.gif" data-src="images/slider/layerslider/icon11.png" alt="">
+                        <img class="ls-l" style="top:330px;left:840px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:50;delayin:5000;" src="images/slider/layerslider/blank.gif" data-src="images/slider/layerslider/icon2.png" alt="">
+                        
+                        <div class="ls-l" style="top:465px;left:1035px;z-index:3;font-family:'Ubuntu';font-size:20px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-50;durationin:2000;delayin:6500;">
+                            <div class="round-list"> <i class="fa fa-circle-o" style="color:#da4b27"> </i> VPS Hosting </div>
+                        </div>
+                        
+                        <img class="ls-l" style="top:330px;left:1030px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:50;delayin:6000;" src="images/slider/layerslider/blank.gif" data-src="images/slider/layerslider/icon3.png" alt="">
+                        <div class="ls-l" style="top:465px;left:825px;z-index:3;font-family:'Ubuntu';font-size:20px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-50;durationin:2000;delayin:5500;">
+                            <div class="round-list"> <i class="fa fa-circle-o" style="color:#da4b27"> </i> Dedicated Hosting </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ls-slide slide3" data-ls="slidedelay:10000;transition2d:4;">
+                        <img src="images/slider/layerslider/blank.gif" data-src="http://placehold.it/1920x600" class="ls-bg" alt="Slide background" />
+                        <div class="ls-l" style="top:100px;left:30px;font-weight:700; z-index:5;padding-left:640px;font-family:'Ubuntu', 'Open Sans', sans-serif;font-size:40px;line-height:46px;color:#101017;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-100;durationin:2500;delayin:1000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">High <span style="color:#3575b9;">Performance</span> Servers</div>
+                        <div class="ls-l" style="top:165px;left:920px;font-weight:100; z-index:3;font-family:'Ubuntu', sans-serif;font-size:30px;line-height:26px;color:#101017;white-space: nowrap;" data-ls="offsetxin:-100;durationin:2000;delayin:1500;">@</div>
+                        <div class="ls-l" style="top:210px;left:820px;font-weight:100; z-index:3;font-family:'Ubuntu', sans-serif;font-size:30px;line-height:26px;color:#3575b9;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;durationin:2000;delayin:2000;">Unbeatable Price</div>
+                        <div class="ls-l" style="top:265px;left:715px; border: 1px solid; font-family: 'Ubuntu', sans-serif; float: left; position: relative; width: 100%; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-color: #3575b9; width:440px;height:155px;white-space: nowrap;" data-ls="offsetxin:100;delayin:3000;">
+                            <div class="dt-sc-promo-box"></div>
+                        </div>
+                        
+                        <div class="ls-l" style="top:285px;left:741px;color: #020203; float: left; line-height: 28px; text-transform: capitalize; ;width:520px;font-family:'Ubuntu';font-size:16px;white-space: nowrap;" data-ls="delayin:3500;"><i style="color:#3575b9" class="fa fa-arrow-circle-o-right"> </i> Unlimited <span style="color:#3575b9">Domain Hosting</span> </div>
+                        
+                        <div class="ls-l" style="top:315px;left:741px;color: #020203; float: left; line-height: 28px; text-transform: capitalize; ;font-family:'Ubuntu';font-size:16px;white-space: nowrap;" data-ls="delayin:4000;"><i style="color:#3575b9" class="fa fa-arrow-circle-o-right"> </i> Unlimited <span style="color:#3575b9"> Hosting Space</span> </div>
+                        
+                        <div class="ls-l" style="top:345px;left:741px;color: #020203; float: left; line-height: 28px; text-transform: capitalize; ;font-family:'Ubuntu';font-size:16px;white-space: nowrap;" data-ls="delayin:4500;"><i style="color:#3575b9" class="fa fa-arrow-circle-o-right"> </i> Unlimited <span style="color:#3575b9"> File Transfer</span> </div>
+                        
+                        <div class="ls-l" style="top:375px;left:741px;color: #020203; float: left; line-height: 28px; text-transform: capitalize; ;font-family:'Ubuntu';font-size:16px;white-space: nowrap;" data-ls="delayin:5000;"><i style="color:#3575b9" class="fa fa-arrow-circle-o-right"> </i> Unlimited <span style="color:#3575b9"> Email Accounts</span> </div>
+                        
+                        <p class="ls-l" style="top:300px;left:352px;font-weight:400; z-index:5;padding-left:640px;font-family:'Ubuntu', 'Open Sans', sans-serif;font-size:50px;line-height:46px;color:#3575b9;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-100;durationin:1500;delayin:5000;transformoriginin:left 50% 0;offsetxout:0;rotateyout:-90;transformoriginout:left 50% 0;">$2.50*</p>
+                        <div class="ls-l" style="top:360px;left:1000px;font-weight:100; z-index:3;font-family:'Ubuntu';font-size:24px;line-height:26px;color:#020203;white-space: nowrap;" data-ls="offsetxin:700;durationin:1500;delayin:5500;">Per Month</div>
+                        <div class="ls-l" style="top:435px;left:850px;font-weight:100; z-index:3;font-family:'Ubuntu';font-size:14px;line-height:26px;color:#020203;white-space: nowrap;" data-ls="offsetxin:100;delayin:6500;">*Offer for a limited period</div>
+                        <div class="ls-l" style="top:0px;left:0px;white-space: nowrap;"></div>
+                        
+                        <div class="ls-l ls-button" style="top:470px;left:807px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:100;delayin:7000;"> 
+                            <a href="#" class="dt-sc-button ico-button"> <span> View Plans </span> <i class="ico-btn-image icon-eye"></i></a> 
+                            
+                        </div>
+                        
+                        <p class="ls-l" style="top:266px;left:970px;width:1px;height:155px;background:#3575b9;white-space: nowrap;" data-ls="delayin:5000;"> </p>
+                        
+                    </div>
+                </div>
+            </div><!-- **Slider Section - End** -->            
+          
+            <!-- **Content Main** -->                                          
+            <section class="content-main">
+            	<!-- **Primary** -->
+            	<div class="content-full-width" id="primary"> 
+                
+                    <div class="dt-sc-hr-invisible-medium"></div>   
+                    <div class="dt-sc-clear"></div> 
+ 
+                    <div class="fullwidth-section">
+                        <div class="fullwidth-bg">	  
+                        	<div class="container">
+                            
+                                <div class="aligncenter call-out type2">
+                                    <h2>Simple. Powerful. Reliable</h2> 
+                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s to make this more legimate at full cost. </p> 
+                                    <div class="dt-sc-hr-invisible-small"></div>   
+                                    <div class="dt-sc-clear"></div>                                     
+                                    <a target="_blank" data-delay="300" data-animation="bounceIn" class="dt-sc-button medium" href="#">Create an Account</a>                                    
+                                </div>     
+                                
+                            </div>
+                        </div>
+                    </div>
+                                 
+                    <div class="dt-sc-hr-invisible-medium"></div>                               
+                    <div class="dt-sc-clear"></div>                          
+                                  
+                    <div class="fullwidth-section light-bg white-gray">
+                        <div class="fullwidth-bg">	  
+                        	<div class="container">
+                                                  
+                                <div class="dt-sc-hr-invisible-large"></div>
+                                <div class="dt-sc-clear"></div>  
+                                                                
+                                <div class="dt-sc-pricing-table type3">                                
+                                	<div class="dt-sc-one-fourth column first">
+                                        <div class="dt-sc-pr-tb-col">
+                                            <div class="icon">
+                                                <span> <img src="images/ico1-colored.png" alt="icon image"> </span>
+                                            </div>
+                                            <h3>Dedicated Servers</h3>
+                                            <span>Neque porro quisquam est</span>
+                                            <div class="dt-sc-price"><sup>$</sup>625<sub>/yr</sub><del>$1100</del></div>
+                                            <a class="dt-sc-button medium" href="#">See More</a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="dt-sc-one-fourth column">
+                                        <div class="dt-sc-pr-tb-col">
+                                            <div class="icon">
+                                                <span> <img src="images/ico2-colored.png" alt="icon image"> </span>
+                                            </div>
+                                            <h3>Resellers Hosting</h3>
+                                            <span>Neque porro quisquam est</span>
+                                            <div class="dt-sc-price"><sup>$</sup>500<sub>/yr</sub><del>$1060</del></div>
+                                            <a class="dt-sc-button medium" href="#">See More</a>
+                                        </div>
+                                    </div>   
+                                
+                                    <div class="dt-sc-one-fourth column">
+                                        <div class="dt-sc-pr-tb-col selected">
+                                            <div class="icon">
+                                                <span> <img src="images/ico3-colored.png" alt="icon image"> </span>
+                                            </div>
+                                            <h3>Grid Web Hosting</h3>
+                                            <span>Neque porro quisquam est</span>
+                                            <div class="dt-sc-price"><sup>$</sup>750<sub>/mo</sub><del>$1280</del></div>
+                                            <a class="dt-sc-button medium" href="#">See More</a>
+                                        </div>
+                                    </div>  
+                                
+                                    <div class="dt-sc-one-fourth column">
+                                        <div class="dt-sc-pr-tb-col">
+                                            <div class="icon">
+                                                <span> <img src="images/ico4-colored.png" alt="icon image">  </span>
+                                            </div>
+                                            <h3>NextGen Hosting</h3>
+                                            <span>Neque porro quisquam est</span>
+                                            <div class="dt-sc-price"><sup>$</sup>960<sub>/mo</sub><del>$1920</del></div>
+                                            <a class="dt-sc-button medium" href="#">See More</a>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                                   
+                                <div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-clear"></div>                                     
+                                   
+                            </div>
+                        </div>
+                    </div>   
+                                        
+                    <div class="fullwidth-section">
+                        <div class="fullwidth-bg">	  
+                        	<div class="container">      
+                                             
+                                <div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-clear"></div>  
+                                
+                                <div class="aligncenter call-out">
+                                    <h2>Wanna get new domains that fits right for you?</h2> 
+                                    <p class="subtitle-text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                                </div>                                
+                                      
+                                <div class="dt-sc-hr-invisible"></div>
+                                <div class="dt-sc-clear"></div>  
+                                                                      
+                                <div class="dt-sc-one-half column first">
+                                	<div class="dt-sc-domains-list">
+                                    	<h3>New domains <span>available</span></h3>
+                                        <ul>
+                                            <li><span>.ninja</span><a class="dt-sc-button small" href="#" target="_blank">Register</a></li>
+                                            <li><span>.reviews</span><a class="dt-sc-button small" href="#" target="_blank">Register</a></li>
+                                            <li><span>.wiki</span><a class="dt-sc-button small" href="#" target="_blank">Register</a></li>
+                                            <li><span>.rentals</span><a class="dt-sc-button small" href="#" target="_blank">Register</a></li>
+                                        </ul>   
+                                    </div>                        
+                                </div>
+                                
+                                <div class="dt-sc-one-half column">
+                                	<div class="dt-sc-domains-list">
+                                    	<h3>New domains <span>available</span></h3>
+                                        <ul>
+                                            <li><span>.nyc</span><a class="dt-sc-button small" href="#" target="_blank">Learn More</a></li>
+                                            <li><span>.vegas</span><a class="dt-sc-button small" href="#" target="_blank">Learn More</a></li>
+                                            <li><span>.website</span><a class="dt-sc-button small" href="#" target="_blank">Learn More</a></li>
+                                            <li><span>.app</span><a class="dt-sc-button small" href="#" target="_blank">Learn More</a></li>
+                                        </ul>
+                                    </div>                          
+                                </div>                                  
+                                
+                                <div class="dt-sc-hr-invisible-very-small"></div>
+                                <div class="dt-sc-clear"></div> 
+                                
+                                <img class="fullwidth-image" src="images/theme-on-stage.png" alt="theme-on-stage">                            
+                            </div>
+                        </div>
+                    </div>     
+
+                                                    
+                    <!-- **Fullwidth Section** --> 
+                    <div class="fullwidth-section dt-sc-parallax" style="background-image: url(http://placehold.it/1920x930/&text=Parallax);" >
+                        <div class="fullwidth-bg">	
+                            <div class="container">
+                            
+                                <div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-clear"></div>
+                                
+                                <div class="aligncenter call-out">
+                                    <h2>Search for the best domains here..</h2> 
+                                    <p class="subtitle-text">Free Email accounts and Privacy Protection comes in your way..</p>
+                                </div>
+                                
+                                <div class="dt-sc-hr-invisible-small"></div>
+                                <div class="dt-sc-clear"></div>                                
+                                
+                                <form class="search-form domain-search" name="frmDomainSearch">
+                                	<div class="dt-sc-three-fifth column first">
+                                    	<input type="text" placeholder="Looking for Domains?" value="" name="domainsearch">
+                                    </div>
+                                    <div class="dt-sc-one-fifth column">
+                                    	<select class="domains" name="domains">
+                                        	<option>.com (From $3 / Year)</option>
+                                            <option>.info (From $3 / Year)</option>
+                                            <option>.net (From $3 / Year)</option>
+                                            <option>.org (From $3 / Year)</option>
+                                        </select>
+                                    </div>
+                                    <div class="dt-sc-one-fifth column">
+                                    	<input type="submit" class="dt-sc-button medium" name="button" value="Search">
+                                    </div>
+                                    
+                                    <div class="dt-sc-hr-invisible"></div>
+                                    <div class="dt-sc-clear"></div>   
+                                    
+                                    <div class="search-carousel-wrapper">
+                                        <div class="search-carousel">
+                                            <ul class="frequent-loads carousel_items">
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack featured">Domain names ranging from <span>$2.49 <sub> / Mo </sub> </span></div></li>
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack"><span class="dom-range">.com</span> <span>$5.99</span></div></li>
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack"><span class="dom-range">.in</span> <span>$3.49</span></div></li>
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack"><span class="dom-range">.org</span> <span>$6.99</span></div></li>
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack"><span class="dom-range">.net</span> <span>$8.99</span></div></li>
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack"><span class="dom-range">.biz</span> <span>$7.49</span></div></li>
+                                                <li class="column dt-sc-one-fifth"><div class="dom-pack"><span class="dom-range">.app</span> <span>$4.99</span></div></li>
+                                            </ul>
+                                            
+                                            <a class="search-prev" href="#"><span class="fa fa-chevron-left"></span></a>
+                                            <a class="search-next" href="#"><span class="fa fa-chevron-right"></span></a>
+                                        </div>
+                                    </div>                                    
+                                </form>
+                                
+                                <div class="dt-sc-hr-invisible"></div>
+                                <div class="dt-sc-clear"></div>                                                                  
+                                
+                            </div>
+                        </div>
+                    </div> <!-- **Fullwidth Section Ends** -->                                     
+                                                     
+
+                    <div class="fullwidth-section">
+                        <div class="fullwidth-bg">	  
+                        	<div class="container"> 
+
+                     
+                                <div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-clear"></div> 
+                                
+                                <div class="column dt-sc-one-column">
+                                    <h2 class="title">Grid Web Hosting Overview</h2> 
+                                    <p class="block">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit sagittis.</p>                       
+                                    <div class="dt-sc-hr-invisible-small"></div>
+                                    <div class="dt-sc-clear"></div>
+                                    
+                                    <div class="ico-content-wrapper type3">
+                                        
+                                        <div class="dt-sc-one-third column first">
+                                            <div class="ico-content">
+                                                <div class="icon">
+                                                    <img src="images/ico1-colored.png" alt="icon-one" >
+                                                </div>
+                                                <h4><a href="#" title="">Host up to 100 websites</a></h4>
+                                            </div>     
+                                        </div>
+    
+                                        <div class="dt-sc-one-third column">
+                                            <div class="ico-content">
+                                                <div class="icon">
+                                                    <img src="images/ico2-colored.png" alt="ico2-colored" >
+                                                </div>
+                                                <h4><a href="#" title="">100 GB storage</a></h4>
+                                            </div> 
+                                        </div>
+                                        
+                                         <div class="dt-sc-one-third column">
+                                            <div class="ico-content">
+                                                <div class="icon">
+                                                    <img src="images/ico3-colored.png" alt="ico3-colored" >
+                                                </div>
+                                                <h4><a href="#" title="">SSD database storage</a></h4>
+                                            </div> 
+                                        </div>
+                                        
+                                        <div class="dt-sc-clear"></div>                                        
+                                        
+                                        <div class="dt-sc-one-third column first">
+                                            <div class="ico-content">
+                                                <div class="icon">
+                                                    <img src="images/ico8-colored.png" alt="icon-one" >
+                                                </div>
+                                                <h4><a href="#" title="">Ensured Bandwidth Speed</a></h4>
+                                            </div>     
+                                        </div>
+    
+                                        <div class="dt-sc-one-third column">
+                                            <div class="ico-content">
+                                                <div class="icon">
+                                                    <img src="images/ico4-colored.png" alt="ico2-colored" >
+                                                </div>
+                                                <h4><a href="#" title="">Unlimited Domains</a></h4>
+                                            </div> 
+                                        </div>
+                                        
+                                         <div class="dt-sc-one-third column">
+                                            <div class="ico-content">
+                                                <div class="icon">
+                                                    <img src="images/ico9-colored.png" alt="ico3-colored" >
+                                                </div>
+                                                <h4><a href="#" title="">Highly Secure and Safe</a></h4>
+                                            </div> 
+                                        </div>                                                                              
+                                        
+                    
+                                        <div class="dt-sc-hr-invisible"></div>
+                                        <div class="dt-sc-clear"></div>    
+                                                            
+                                     </div>                                                                                                                                                                                               
+                                </div>                                
+                                
+                            </div>
+                        </div>
+                    </div>             
+ 
+                                      
+                    <div class="fullwidth-section light-bg white-gray">
+                        <div class="fullwidth-bg">	
+                            <div class="container">    
+                            
+                           		<div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-clear"></div>     
+                                                                                    
+                                <!-- Slider #3 -->
+                                <div class="page-slider-wrapper left-slide">
+                                	<div class="dt-sc-two-fifth column first">
+                                        <ul class="page-slider">
+                                          <li><img src="images/slider/feature-slide1.png" alt="onpage-slider-image"></li>
+                                          <li><img src="images/slider/feature-slide2.png" alt="onpage-slider-image"></li>
+                                          <li><img src="images/slider/feature-slide3.png" alt="onpage-slider-image"></li>
+                                          <li><img src="images/slider/feature-slide4.png" alt="onpage-slider-image"></li>
+                                          <li><img src="images/slider/feature-slide5.png" alt="onpage-slider-image"></li>
+                                          <li><img src="images/slider/feature-slide6.png" alt="onpage-slider-image"></li>                                       
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="dt-sc-three-fifth column">
+                                    	<h3><span>Find out our Amazing features,</span> that makes getting into your Customers, Hassle-Free Now !</h3>
+                                        <div class="slide-nav-control-wrapper">
+                                            <ul class="left-slide-nav-links">
+                                                <li><a href="#"><i class="fa fa-inbox"></i> Effective Control Panel</a></li>
+                                                <li><a href="#"><i class="fa fa-inbox"></i> Nextgen Hosting</a></li>
+                                                <li><a href="#"><i class="fa fa-inbox"></i> Delicated Support</a></li>
+                                                <li><a href="#"><i class="fa fa-inbox"></i> Extended Speed</a></li>
+                                                <li><a href="#"><i class="fa fa-inbox"></i> Completely Secured</a></li>
+                                                <li><a href="#"><i class="fa fa-inbox"></i> Simple Configuration</a></li>        
+                                            </ul>                              
+                                        </div> 
+                                        
+                                        <span class="buttons">                                   
+                                            <a class="dt-sc-button small" href="#">Learn More</a>
+                                            <a class="dt-sc-button small" href="#">View Plans</a>
+                                        </span>
+                                        
+                                    </div>
+                                </div> <!-- Slider #3 Ends -->                                   
+                                
+                           		<div class="dt-sc-hr-invisible-medium"></div>
+                                <div class="dt-sc-clear"></div>    
+                            </div>
+                        </div>
+                    </div>                                                                                                            
+                                   
+                    <div class="dt-sc-hr-invisible"></div>
+                    <div class="dt-sc-hr-invisible-small"></div>
+                    <div class="dt-sc-clear"></div>  
+
+                    <div class="fullwidth-section">
+                        <div class="fullwidth-bg">	  
+                        	<div class="container">
+                                                                                   
+                                <div class="dt-sc-tabs-container type2">
+                                    <ul class="dt-sc-tabs">
+                                        <li class="current"><a class="current" href="#">Next-gen vps hosting</a></li>
+                                        <li><a href="#" title="">Performance</a></li>
+                                        <li><a href="#" title="">Effectiveness</a></li>
+                                    </ul>
+                                    
+                                    <div class="dt-sc-tabs-content">
+                                        <div class="dt-sc-two-third column first">
+                                        
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>
+                                                     
+                                            <h3>Nextgen VPS Hosting </h3>                                                       
+                                            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis. Nunc at pretium est curabitur commodo leac est venenatis egestas sed aliquet auguevelit, which has been the industry's standard dummy text ever since the 1500s, sem nibh id elit.
+                                            
+                                            <div class="dt-sc-hr-invisible-very-small"></div>
+                                            <div class="dt-sc-clear"></div>
+                                                            
+                                            <div class="dt-sc-one-half column first">                                                                                                                      
+                                                <ul class="dt-sc-fancy-list tick type2">
+                                                    <li>Advanced SAN based storage</li>
+                                                    <li>Fully Managed Support</li>
+                                                    <li>Powered by NetApp, Virtuozzo & CentOS</li>
+                                                </ul>
+                                                
+                                                <a href="#" class="dt-sc-button medium">View Plans</a>
+                                            </div>
+                                            
+                                            <div class="dt-sc-one-half column">
+                                            	<div class="dt-sc-pricing-box"> Starting @ <span>$1,500</span>Per month </div>   
+                                            </div>                        
+                                        </div>
+                                        
+                                    	<div class="dt-sc-one-third column">
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>                                           
+                                    		<img class="aligncenter" src="http://placehold.it/416x332" alt="server1">
+                                        </div>                                        
+                                    </div>
+                                    
+                                    <div class="dt-sc-tabs-content">
+                                    	<div class="dt-sc-one-third column first">
+                                            <div class="hr-invisible-very-small"></div>
+                                            <div class="dt-sc-clear"></div>                                           
+                                    		<img class="aligncenter" src="http://placehold.it/416x332" alt="server2">
+                                        </div>
+                                        
+                                        <div class="dt-sc-two-third column">
+                                        
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div> 
+                                                    
+                                            <h3>Level of Performance</h3>                                                           
+                                            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, sem nibh id elit. 
+                                            
+                                            <div class="dt-sc-hr-invisible-very-small"></div>
+                                            <div class="dt-sc-clear"></div>                                                               
+                                                                               
+                                            <div class="dt-sc-one-half column first">                                                                                                                      
+                                                <ul class="dt-sc-fancy-list tick type2">
+                                                    <li>Advanced SAN based storage</li>
+                                                    <li>Fully Managed Support</li>
+                                                    <li>Powered by NetApp, Virtuozzo & CentOS</li>
+                                                </ul>
+                                                
+                                                <a href="#" class="dt-sc-button medium">View Plans</a>
+                                            </div>
+                                            
+                                            <div class="dt-sc-one-half column">
+                                            	<div class="dt-sc-pricing-box"> Starting @ <span>$1,500</span>Per month </div>   
+                                            </div>               
+                                        </div>
+                                    </div>                                    
+                                    
+                                    <div class="dt-sc-tabs-content">
+                                    
+                                        <div class="dt-sc-two-third column first">
+                                        
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>         
+                                               
+                                            <h3>Effectivness of VPS Hosting </h3>               
+                                            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, sem nibh id elit, when an unknown printer took a galley of type and scrambled specimen book. 
+                                            <div class="dt-sc-hr-invisible-very-small"></div>
+                                            <div class="dt-sc-clear"></div>
+                                                                                        
+                                            <div class="dt-sc-one-half column first">                                                                                                                      
+                                                <ul class="dt-sc-fancy-list tick type2">
+                                                    <li>Advanced SAN based storage</li>
+                                                    <li>Fully Managed Support</li>
+                                                    <li>Powered by NetApp, Virtuozzo & CentOS</li>
+                                                </ul>
+                                                
+                                                <a href="#" class="dt-sc-button medium">View Plans</a>
+                                            </div>
+                                            
+                                            <div class="dt-sc-one-half column">
+                                            	<div class="dt-sc-pricing-box"> Starting @ <span>$1,500</span>Per month </div>   
+                                            </div>  
+                                                       
+                                        </div>
+                                                                            
+                                    	<div class="dt-sc-one-third column">
+                                            <div class="dt-sc-hr-invisible"></div>
+                                            <div class="dt-sc-clear"></div>                                           
+                                    		<img class="aligncenter" src="http://placehold.it/416x332" alt="server3">
+                                        </div>
+                                    </div>                                                                                     
+                                </div>  
+                                                                                        
+                            </div>
+                        </div>
+                    </div>  
+                 
+                
+            	</div> <!-- **Primary Ends** -->
+            </section>  <!-- **Content Main Ends** -->  
+                      
+            <div id="bbar-wrapper" class="header1">
+                <div class="container">
+                    <div class="float-left">
+                        <a class="icon" href="#"> <span class="ico-phone"></span> </a>
+                        <a class="icon" href="#"> <span class="ico-chat"></span> </a>
+                    </div>
+                    
+                    <div class="float-right">
+                        <p>dedicated hosting solutions <span>only $149.99/month</span> <a class="dt-sc-button small dt-sc-tooltip-top" href="#" title="Feel free to leave us a message <br> once if you need any help on Hosting">get started</a></p>
+                    </div>
+                </div>
+            </div>                  
+           
+	    </div> <!-- **Main Ends** --> 
+         
+        
+        <!-- **Footer** -->
+        <footer id="footer">
+        	<div class="container">
+            	<div class="column dt-sc-one-fourth first">
+                	<aside class="widget textwidget">
+                    	<h3 class="widgettitle">Text Widget<span></span></h3>
+                        <p><strong>MultiHost</strong> helps you to quickly and easily build incredible websites with WordPress. <br> <br> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis. </p>
+                    </aside>
+                </div>
+                
+                <div class="column dt-sc-one-fourth">
+                	<aside class="widget widget_links">
+                    	<h3 class="widgettitle">Links<span></span></h3>
+                        <ul>
+                            <li><a href="#" title="">Customer Support</a></li>
+                            <li><a href="#" title="">Documentation</a></li>
+                        	<li><a href="#" title="">Resources</a></li>
+                            <li><a href="#" title="">General FAQs</a></li>
+                            <li><a href="#" title="">Shortcodes</a></li>
+                            <li><a href="#" title="">Theme Help Videos</a></li>                            
+                        </ul>
+                    </aside>                
+                </div>
+                <div class="column dt-sc-one-fourth">
+                	<aside class="widget widget_recent_entries">
+                    	<h3 class="widgettitle">Latest Posts<span></span></h3>
+                        <ul>
+                            <li>
+                                <h4 class="entry-title"><a href="">Raven's Hello World !</a></h4>
+                                <p class="show-meta">
+                                    <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+                                    <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <h4 class="entry-title"><a href="">Our Celebration</a></h4>
+                                <p class="show-meta">
+                                    <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+                                    <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <h4 class="entry-title"><a href="">The Real Steel</a></h4>
+                                <p class="show-meta">
+                                    <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+                                    <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+                                </p>
+                            </li>                                                          
+                        </ul>
+					</aside> 
+                </div>
+                
+                <div class="column dt-sc-one-fourth">
+                	<aside class="widget widget_newsletter">
+                    	<h3 class="widgettitle">Newsletter<span></span></h3>
+                        <p>Your about us information would fit here nicely.</p>
+                        <form name="frmnewsletter" class="newsletter-form" action="php/subscribe.php" method="post">
+                            <input type="email" required="" placeholder="Your Email ID" name="mc_email">
+                            <input type="submit" value="Submit" class="dt-sc-button" name="btnsubscribe">
+                        </form>
+                        <div id="ajax_subscribe_msg"></div>
+                    </aside>
+                    
+                    <div class="widget textwidget">   
+                        <ul class="dt-sc-social-icons">
+                        	<li class="facebook"><a class="fa fa-facebook" href="#"></a></li>
+                        	<li class="google"><a class="fa fa-google-plus" href="#"> </a></li>
+                        	<li class="twitter"><a class="fa fa-twitter" href="#"></a></li>                           
+                        	<li class="linkedin"><a class="fa fa-linkedin" href="#"></a></li>
+                        	<li class="dribbble"><a class="fa fa-dribbble" href="#"></a></li>
+                        </ul>                                   	
+                   </div>     
+                              
+                </div>
+            </div>
+            
+            <div class="copyright">        	
+                <div class="container">
+                    <p> Copyright &copy; 2014, developed by <a href="">BuddhaThemes</a>. All rights reserved. </p>        	
+                </div>
+            </div>              
+        </footer> <!-- **Footer Ends** -->
+        
+    </div> <!-- **Wrapper Ends** --> 
+    
+	<!-- **jQuery** -->
+
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    
+    <script type="text/javascript" src="js/pace.min.js"></script>
+    
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>    
+    <script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+	<script type="text/javascript" src="js/inview.js"></script>
+	<script type="text/javascript" src="js/jquery.tabs.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
+    <script type="text/javascript" src="js/jquery.viewport.js"></script>
+	<script type="text/javascript" src="js/jquery.donutchart.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>    
+	<script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+    
+	<script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+	<script type="text/javascript" src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>        
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script> 
+    <script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
+    
+    <script src="js/jquery.validate.min.js"></script>
+    
+	<script type="text/javascript" src="js/custom.js"></script>     
+    
+	<script src="js/layerslider/js/greensock.js" type="text/javascript"></script>
+	<script src="js/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="js/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>   
+    
+	<script type="text/javascript">var lsjQuery = jQuery;</script>
+    
+    <script type="text/javascript"> 
+	
+        lsjQuery(document).ready(function() {
+             if(typeof lsjQuery.fn.layerSlider == "undefined") { 
+                lsShowNotice('layerslider_6','jquery');
+             } 
+             else { 
+                lsjQuery("#layerslider_6").layerSlider({
+                    responsiveUnder	: 	1170, 
+                    layersContainer	: 	1170, 
+                    pauseOnHover	: 	false, 
+                    forceLoopNum	: 	false, 
+                    autoPlayVideos	: 	false, 
+                    skinsPath		: 	'js/layerslider/skins/'}) 
+            }
+        }); 
+		
+		jQuery(window).load(function() {
+			
+			//PAGE SLIDER...
+			if(jQuery('.left-slide').length) {
+				jQuery('.left-slide').each(function(){
+					var $this = jQuery(this).find('.page-slider');
+					$this.carouFredSel({
+						responsive: true,
+						auto: false,
+						width: '100%',
+						height: 'auto',
+						scroll: {
+							fx: "cover-fade",
+							duration: 800
+						},
+						items: { width: $this.find("li").width(), height: 'auto', visible: { min: 1, max: 1 } },
+						pagination: {
+							container: ".left-slide-nav-links",
+							anchorBuilder: false
+						}
+					});
+				});		
+			}		
+			
+		});
+		
+    </script>   
+        
+    
+</body>
 </html>
