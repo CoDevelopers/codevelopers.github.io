@@ -835,7 +835,7 @@
 	.slider-wrapper, .page-slider-wrapper { display :block; float: left; position: relative; width:100%; }
 	.slider-wrapper .caroufredsel_wrapper { margin: 0 !important; }	
 	.slider-wrapper .main-slider li { float: left; height: auto; margin: 0; padding: 0; width: 100%; }
-	.slider-wrapper .main-slider li img {  float: left; height: auto; max-width: 100%; width: 100%; }
+	.slider-wrapper .main-slider li img {  float: left; height: 550px; max-width: 100%; width: 100%; }
 	.slide-controls-wrapper { float: left; margin: -111px 0 0; outline: 0; position: relative; width: 100%; z-index: 1;  }	
 	.slide-controls { display: block; float: none; margin: 0 auto; max-width: 1170px; }
 	.slide-controls li { border-style: solid; border-width: 0 1px 1px 0; float: left; margin: 0; padding: 0; text-align: center; width: 16.35%; }

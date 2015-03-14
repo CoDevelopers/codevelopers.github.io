@@ -40,7 +40,7 @@
 		#secondary { width: 220px; }		
 		.boxed .wrapper, .boxed #header-wrapper { width:940px; }
 		.wrapper, #header-wrapper { width:100%; }
-		img, .aligncenter { height:12px; max-width: 100%; }	
+		img, .aligncenter { max-width: 100%; }	
 		
 		th { padding:12px 5px; font-size:12px; text-transform:none; }
 		td { padding:10px 5px; font-size:12px; }
@@ -51,7 +51,7 @@
 		
 		
 		
-		##logo, #header.header2 #logo, #header.header3 #logo { margin: 22px 0 0; width: 26%; }
+		#logo, #header.header2 #logo, #header.header3 #logo { margin: 22px 0 0; width: 26%; }
 		#header.header3 #logo { margin: 27px 0 0; }
 		#header.header4 #logo { margin: 39px 0 0; }
 		.main-menuwrapper ul > li:last-child ul { left: auto; right: 0; }	
@@ -726,7 +726,7 @@
 		.portfolio-details .detail { font-size:12px; padding:20px 10px; }		
 		.portfolio-details a { font-size: 14px; margin: 5px 5px 0; }
 		
-		.carousel-gallery li .entry-thumb img, .portfolio-item .entry-thumb img { max-height: 100%; }
+		.carousel-gallery li .entry-thumb img, .portfolio-item .entry-thumb img { max-height: 50%; }
 
 		.portfolio-slider-container .bx-controls-direction a { top: 30%; }				
 
@@ -1016,7 +1016,7 @@
 		ul.dt-sc-tabs li a { padding: 0; }	
 		ul.dt-sc-tabs li a.current { font-weight:bold; }	
 		
-		.dt-sc-tabs-container.type2 ul.dt-sc-tabs li { margin: 0; }
+		.-tabs-container.type2 ul.dt-sc-tabs li { margin: 0; }
 		.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a { border-bottom: 1px solid; border-right: 1px solid; font-size: 15px; line-height: 40px; margin-bottom: 5px; padding: 0; width: 100%; }
 		.dt-sc-tabs-container.type2 ul.dt-sc-tabs li a.current { border-bottom: 2px solid; }			
 		
