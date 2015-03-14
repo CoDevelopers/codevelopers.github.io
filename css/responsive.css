@@ -51,7 +51,7 @@
 		
 		
 		
-		#logo, #header.header2 #logo, #header.header3 #logo { margin: 22px 0 0; width: 26%; }
+		##logo, #header.header2 #logo, #header.header3 #logo { margin: 22px 0 0; width: 26%; }
 		#header.header3 #logo { margin: 27px 0 0; }
 		#header.header4 #logo { margin: 39px 0 0; }
 		.main-menuwrapper ul > li:last-child ul { left: auto; right: 0; }	

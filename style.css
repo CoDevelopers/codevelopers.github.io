@@ -334,6 +334,7 @@
 	.dt-sc-social-icons li a { color: #fff; display: block; height: 100%; line-height: 30px; position: relative; z-index: 1; }
 	.dt-sc-social-icons li img { bottom: 0; left: 0; position: absolute; }
 	.dt-sc-social-icons li img:first-child { bottom: -30px; }
+	.dt-sc-platforms li img{bottom: 0; left: 0; position: absolute; height: 50%;}
 	.dt-sc-social-icons li:hover img:first-child { bottom:0px; z-index:1; }
 	.dt-sc-social-icons li:hover img:last-child { bottom:-29px; }
 	
