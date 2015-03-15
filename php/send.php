@@ -17,7 +17,7 @@ if(!$_GET) exit;
 	 $msg .= "You can contact $name via email, $email.\r\n\n";
 	 $msg .= "-------------------------------------------------------------------------------------------\r\n";
 								
-	 if(@mail($to, $e_subject, $msg, "From: $email\r\nReturn-Path: $email\r\n"))
+	 if(@mail($to, $e_subject, $msg, From: $email\r\nReturn-Path: $email\r\n))
 	 {
 		 echo <span class='success-msg'>Thanks for Contacting Us, We will call back to you soon.</span>;
 	 }
