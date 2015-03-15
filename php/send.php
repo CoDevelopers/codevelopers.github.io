@@ -1,12 +1,12 @@
 <?php
  header("Access-Control-Allow-Origin: *");
-if(!$_POST) exit;
+if(!$_GET) exit;
 
     $to 	  = 'katgstudios@gmail.com'; #Replace your email id...
-	$name	  = $_POST['txtname'];
-	$email    = $_POST['txtemail'];
-	$subject  = !empty($_POST['txtquestion']) ? $_POST['txtquestion'] : 'Support';
-    $comment  = $_POST['txtmessage'];
+	$name	  = $_GET['txtname'];
+	$email    = $_GET['txtemail'];
+	$subject  = !empty($_GET['txtquestion']) ? $_GET['txtquestion'] : 'Support';
+    $comment  = $_GET['txtmessage'];
         
 	if(get_magic_quotes_gpc()) { $comment = stripslashes($comment); }
 
