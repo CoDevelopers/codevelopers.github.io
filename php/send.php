@@ -19,10 +19,10 @@ if(!$_GET) exit;
 								
 	 if(@mail($to, $e_subject, $msg, "From: $email\r\nReturn-Path: $email\r\n"))
 	 {
-		 echo "<span class='success-msg'>Thanks for Contacting Us, We will call back to you soon."</span>;
+		 echo <span class='success-msg'>Thanks for Contacting Us, We will call back to you soon.</span>;
 	 }
 	 else
 	 {
-		 echo "<span class='error-msg'>Sorry your message not sent, Try again Later."</span>;
+		 echo <span class='error-msg'>Sorry your message not sent, Try again Later.</span>;
 	 }
 ?>
