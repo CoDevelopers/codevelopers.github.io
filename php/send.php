@@ -1,7 +1,7 @@
 <?php
 if(!$_POST) exit;
 
-    $to 	  = 'someemail@somedomain.com'; #Replace your email id...
+    $to 	  = 'katgstudios@gmail.com'; #Replace your email id...
 	$name	  = $_POST['txtname'];
 	$email    = $_POST['txtemail'];
 	$subject  = !empty($_POST['txtquestion']) ? $_POST['txtquestion'] : 'Support';
