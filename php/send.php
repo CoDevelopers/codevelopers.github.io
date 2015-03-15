@@ -1,4 +1,5 @@
 <?php
+ header("Access-Control-Allow-Origin: *");
 if(!$_POST) exit;
 
     $to 	  = 'katgstudios@gmail.com'; #Replace your email id...
