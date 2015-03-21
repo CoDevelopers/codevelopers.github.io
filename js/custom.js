@@ -162,7 +162,7 @@ jQuery(document).ready(function($){
 			var action = $(This).attr('action');
 			var data_value = unescape($(This).serialize());
 			$.ajax({
-				 type: "GET",
+				 type: "POST",
 				 url:action,
 				 data: data_value,
 				 error: function (xhr, status, error) {
@@ -212,7 +212,7 @@ jQuery(document).ready(function($){
 			var action = $(This).attr('action');
 			var data_value = unescape($(This).serialize());
 			$.ajax({
-				 type: "POST",
+				 type: "GET",
 				 url:action,
 				 data: data_value,
 				 error: function (xhr, status, error) {
