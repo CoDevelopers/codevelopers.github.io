@@ -40,12 +40,15 @@
 		#secondary { width: 220px; }		
 		.boxed .wrapper, .boxed #header-wrapper { width:940px; }
 		.wrapper, #header-wrapper { width:100%; }
-		img, .aligncenter { max-width: 100%; }	
+		img, .aligncenter { height: 50%; }
+	   .fbicon {position: relative, right: 20px }	
+
 		
 		th { padding:12px 5px; font-size:12px; text-transform:none; }
 		td { padding:10px 5px; font-size:12px; }
 		
-		.preview-section .column { width: 100%; }			
+		.preview-section .column { width: 100%; }
+		.fbico img{position: absolute;}			
 		
 		/*----*****---- << Header >> ----*****----*/		
 		
@@ -230,6 +233,7 @@
 		/*----*****---- << Main >> ----*****----*/	
 
 		.aligncenter { height:auto; max-width: 100%; }
+		.socialicon {height: 50%}
 		img { height:auto; }		
 		pre, code { width:96.5%; }
 		
@@ -456,7 +460,7 @@
 		
 		.column { margin-left:0; }
 		
-		.dt-sc-one-half, .dt-sc-one-third, .dt-sc-two-third, .dt-sc-one-fourth, .dt-sc-three-fourth, .dt-sc-one-fifth, .dt-sc-two-fifth, .dt-sc-three-fifth, .dt-sc-four-fifth, .dt-sc-one-column,
+		.dt-sc-one-half, .dt-sc-one-third,.fbicon, .dt-sc-two-third, .dt-sc-one-fourth, .dt-sc-three-fourth, .dt-sc-one-fifth, .dt-sc-two-fifth, .dt-sc-three-fifth, .dt-sc-four-fifth, .dt-sc-one-column,
 		.column.no-space.dt-sc-one-half, .column.no-space.dt-sc-one-third, .column.no-space.dt-sc-two-third, .column.no-space.dt-sc-one-fourth, .column.no-space.dt-sc-three-fourth, .column.no-space.dt-sc-one-fifth, .column.no-space.dt-sc-two-fifth, .column.no-space.dt-sc-three-fifth, .column.no-space.dt-sc-four-fifth { width:100%; }
 						
 		/*----*****---- << Miscellaneous >> ----*****----*/	
@@ -623,6 +627,7 @@
 		
 		#bbar-wrapper .column { margin-bottom: 10px; margin-left: 0; text-align: center; width: 100%; }
 		#bbar-wrapper .column.alignright { display: inline-block; float: none; text-align: center; }
+
 		
 		#bbar-wrapper.header1 .float-left { line-height: 15px; margin: 0; width: 28%; }
 		#bbar-wrapper.header1 .float-right { text-align: right; width: 66%; }
@@ -931,6 +936,7 @@
 					
 			
 		/*----*****---- << Portfolio >> ----*****----*/	
+
 			
 		.sorting-container { text-align:center; }
 		.sorting-container a { display:inline-block; float:none; }
