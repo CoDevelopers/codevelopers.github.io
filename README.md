@@ -1,3 +1,3 @@
-# katg-studios.github.io
+# codevelopers.github.io
 
-Codebase for the KATG-Studios Website
+Codebase for the CoDevelopers Website
